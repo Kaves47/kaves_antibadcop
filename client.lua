@@ -1,25 +1,19 @@
 ESX = nil
 
 
-Weapons = {  -- Blacklistte bulunan silahları buraya giriyoruz.Silah kodlarına buradan ulaşabilirsiniz. / https://wiki.rage.mp/index.php?title=Weapons
+Weapons = { --/ https://wiki.rage.mp/index.php?title=Weapons
 
     "WEAPON_PISTOL",
 
 }
 
-Jobs = { -- Whitelistte bulnacak meslekleri buraya yazıyoruz.
+Jobs = { -- Whitelisted jobs
 
     "police",
     "sheriff",
 
 }
 
---[[
-
-BU SCRIPT Kaves#0359 TARAFINDAN YAZILMIŞTIR.
-THIS SCRIPT WAS WRITTEN BY Kaves#0359
-
-]]--
 
 Citizen.CreateThread(function()
 	while ESX == nil do
